@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>商品详情</title>
+        <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport"/>
+        <meta content="yes" name="apple-mobile-web-app-capable"/>
+        <meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+        <meta content="telephone=no" name="format-detection"/>
+        <link href="css/detail.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+
+        <!--
+
+         * 17素材vip建站专区模块代码
+         * 详尽信息请看官网：http://www.17sucai.com/pins/vip
+         *
+         * Copyright , 温州易站网络科技有限公司版权所有
+         *
+         * 请尊重原创，未经允许请勿转载。
+         * 在保留版权的前提下可应用于个人或商业用途
+
+        -->
+
+        <section class="aui-flexView">
+            <header class="aui-navBar aui-navBar-fixed">
+                <a href="javascript:;" class="aui-navBar-item" onclick="goback()">
+                    <i class="icon icon-return"></i>
+                </a>
+                <div class="aui-center">
+                    <span class="aui-center-title">商品详情</span>
+                </div>
+                <a href="javascript:;" class="aui-navBar-item">
+                    <i class="icon icon-xin"></i>
+                    <i class="icon icon-shr"></i>
+                </a>
+            </header>
+            <section class="aui-scrollView">
+                <div class="img_gallery" id="commodity">
+                    <div class="main_img">
+                        <ul>
+                            <li>
+                                <img src="images/pd08-b01.jpg" alt="">
+                            </li>
+                            <li>
+                                <img src="images/pd08-b02.jpg" alt="">
+                            </li>
+                            <li>
+                                <img src="images/pd08-b03.jpg" alt="">
+                            </li>
+                            <li>
+                                <img src="images/pd08-b04.jpg" alt="">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="img_font">
+                        <span>1/4</span>
+                        <span>2/4</span>
+                        <span>3/4</span>
+                        <span>4/4</span>
+                    </div>
+                </div>
+                <div class="aui-product-head aui-footer-flex">
+                    <h2>
+                        <i>￥</i>
+                        42
+                    </h2>
+                    <span>￥65</span>
+                    <em>6.5折</em>
+                    <em>特价</em>
+                </div>
+                <div class="aui-product-title">
+                    <h2>OnitsukaTiger 鬼冢虎 Mexico66 李宇春同款 经典烫金标男女运动休闲鞋经典烫金标男女运动休闲鞋</h2>
+                </div>
+                <div class="aui-product-title aui-product-title-text">
+                    <h2>鬼冢虎 Mexico66 李宇春同款OnitsukaTiger  经典烫金标男女运动休闲鞋经典烫金标男女运动休闲鞋</h2>
+                </div>
+                <div class="aui-module-box">
+                    <ul>
+                        <li class="aui-footer-flex" data-ydui-actionsheet="{target:'#actionSheet3',closeElement:'#cancel3'}">
+                            <div class="aui-module-hd">运费</div>
+                            <div class="aui-module-bd">免运费</div>
+                            <div class="aui-module-fr aui-footer-flex1"></div>
+                        </li>
+                        <li class="aui-footer-flex" data-ydui-actionsheet="{target:'#actionSheet4',closeElement:'#cancel4'}">
+                            <div class="aui-module-hd">说明</div>
+                            <div class="aui-module-bd">假一赔十 | 7天无忧退货 | 自营发货</div>
+                            <div class="aui-module-fr aui-footer-flex1"></div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="divHeight"></div>
+                <div class="aui-introduce">
+                    <div class="aui-tab" data-ydui-tab>
+                        <div class="tab-panel">
+                            <div class="tab-panel-item tab-active">
+                                <div class="tab-item">
+                                    <div class="aui-page-img">
+                                        <img src="images/pd08-d01.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="m-actionsheet" id="actionSheet3">
+                    <div class="aui-show-box">
+                        <div class="aui-show-box-title aui-footer-flex">
+                            <div class="aui-footer-flex1">运费说明</div>
+                            <div>
+                                <a href="javascript:;" id="cancel3" class="">
+                                    <i class="icon icon-close"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="aui-text-info">
+                            <p>免运费
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="m-actionsheet" id="actionSheet4">
+                    <div class="aui-show-box">
+                        <div class="aui-show-box-title aui-footer-flex">
+                            <div class="aui-footer-flex1">商品说明</div>
+                            <div>
+                                <a href="javascript:;" id="cancel5" class="">
+                                    <i class="icon icon-close"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="aui-text-info">
+                            <p>假一赔十 | 7天无忧退货 | 自营发货
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer class="aui-footer-button aui-footer-flex aui-footer-fixed">
+                <div class="aui-footer-wrap">
+                    <i class="icon-service"></i>
+                    <span>客服</span>
+                </div>
+                <div class="aui-footer-wrap">
+                    <i class="icon-car"></i>
+                    <span>购物车</span>
+                </div>
+                <div class="aui-footer-group aui-footer-flex1">
+                    <div class="aui-footer-flex">
+                        <div class="aui-btn aui-btn-orange">
+                            <span>加入购物车</span>
+                        </div>
+                        <div class="aui-btn aui-btn-red">
+                            <span>立即购买</span>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </section>
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/tab.js"></script>
+        <script type="text/javascript" src="js/layer.js"></script>
+        <script type="text/javascript" src="js/touchSlider.js"></script>
+        <script type="text/javascript">
+        function goback() {
+            window.history.back(-1);
+        }
+            $(document).ready(function() {
+
+                $(".main_img").touchSlider({
+                    flexible: true,
+                    speed: 200,
+                    btn_prev: $("#btn_prev"),
+                    btn_next: $("#btn_next"),
+                    paging: $(".point a"),
+                    counter: function(e) {
+                        $(".point a").removeClass("on").eq(e.current - 1).addClass("on");
+                        $(".img_font span").hide().eq(e.current - 1).show();
+                    }
+                });
+
+            });
+            $(function() {
+                $(window).bind("scroll", function() {
+                    var sTop = $(window).scrollTop();
+                    var sTop = parseInt(sTop);
+                    if (sTop >= 44) {
+                        if (!$("#scrollBg").is(":visible")) {
+                            try {
+                                $("#scrollBg").slideDown();
+                            } catch (e) {
+                                $("#scrollBg").show();
+                            }
+                        }
+                    } else {
+                        if ($("#scrollBg").is(":visible")) {
+                            try {
+                                $("#scrollBg").slideUp();
+                            } catch (e) {
+                                $("#scrollBg").hide();
+                            }
+                        }
+                    }
+                });
+            });
+
+        </script>
+    </body>
+</html>
