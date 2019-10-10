@@ -604,6 +604,12 @@ a {
     font-size: 0.85rem;
 }
 
+.aui-flex-box img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
 .aui-go-btn button {
     background: #83cf25;
     color: #fff;
@@ -906,4 +912,69 @@ a {
     z-index: 1;
     visibility: hidden;
 }
+
+.aui-slide-list {
+    margin: 10px 0;
+    padding-left: 0px;
+    overflow: hidden;
+    height: 8.2rem;
+}
+
+.aui-vertical .aui-slide-list {
+    height: 12rem;
+    margin-top: 15px;
+}
+
+.aui-slide-item-list {
+    width: auto;
+    white-space: nowrap;
+    overflow: auto;
+    height: 9.3rem;
+    font-size: 0;
+    padding-right: 1rem;
+    margin-left: 1rem;
+}
+
+.aui-vertical .aui-slide-item-list {
+    height: 13rem;
+}
+
+.aui-slide-item-item {
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.aui-slide-item-item a {
+    float: left;
+    margin: 0 2% 0 2%;
+    border-radius: 5px;
+    background: #fff;
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+
+.aui-slide-item-item a img {
+    height: 10rem;
+    display: block;
+    border: none;
+    /* border: 1px solid #f0f0f0; */
+    border-radius: 0 5px 5px 0px;
+    object-fit: cover;
+}
+
+.aui-vertical .aui-slide-item-item {
+    width: 33%;
+}
+
+.aui-vertical .aui-slide-item-item a img {
+    border-radius: 5px;
+}
+
+.aui-vertical .aui-slide-item-item {
+    border: none;
+}
+
 
